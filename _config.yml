@@ -60,6 +60,17 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+# Markdown语法
+## https://github.com/chjj/marked
+markdown: 
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
@@ -72,6 +83,10 @@ deploy:
   repo: https://github.com/ShenhuaHou/ShenhuaHou.github.io.git
   branch: master
 
+## duoshuo
+duoshuo_shortname: shenhuahou
+duoshuo_hotartical: true
+
 since: 2015
 
 avatar: /uploads/avatar.jpg
@@ -83,3 +98,7 @@ social:
   zhihu: https://www.zhihu.com/people/houshenhua
   # etc
   
+# mathjax:
+#   src: custom_mathjax_source
+#   config:
+#     # MathJax config
